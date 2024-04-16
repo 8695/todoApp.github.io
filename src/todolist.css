@@ -1,0 +1,41 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    border: none;
+    width: 60%;
+    border-radius: 20px;
+}
+.task{
+    margin-top: 20px;
+    margin-left: 8%;
+    padding: 20px;
+    background-color: antiquewhite;
+    font-size: 20px; 
+}
+.toggle-btn {
+    margin-bottom: 5px;
+    position: absolute;
+    left: 70%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+.dlt-btn{
+    position: absolute;
+    font-size: 20px;
+    border: none;
+    right:22%;
+    background: none;
+}
